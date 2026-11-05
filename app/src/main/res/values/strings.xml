@@ -1,8 +1,3 @@
 <resources>
     <string name="app_name">My Application</string>
-
-    <!-- Auth0 (public values, no secret) -->
-    <string name="com_auth0_domain" translatable="false">dev-ber2ksmdstqs473t.us.auth0.com</string>
-    <string name="com_auth0_client_id" translatable="false">2ljAgl4FvTjaHu0PPDbwGT8QzVaRfhtF</string>
-    <string name="com_auth0_scheme" translatable="false">https</string>
 </resources>

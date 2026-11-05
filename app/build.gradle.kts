@@ -18,10 +18,6 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        // Auth0: domain and scheme come from strings.xml
-        manifestPlaceholders["auth0Domain"] = "@string/com_auth0_domain"
-        manifestPlaceholders["auth0Scheme"] = "@string/com_auth0_scheme"
-
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -46,7 +42,6 @@ dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.accompanist.permissions)
     implementation(libs.androidx.activity.compose)
-    implementation(libs.auth0)
     implementation(libs.androidx.camera.camera2)
     implementation(libs.androidx.camera.core)
     implementation(libs.androidx.camera.lifecycle)
